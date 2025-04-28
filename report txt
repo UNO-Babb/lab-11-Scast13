@@ -1,0 +1,19 @@
+ 
+ What I Changed:
+
+# To optimize the grocery store simulation, I made a few important changes.
+# I reduced the number of checkers from five to two, which made the checkout
+# process more efficient without having too much idle time. I also made
+# customer arrival times random between one and two minutes instead of exactly
+# every two minutes, which made the simulation more realistic. I adjusted how
+# shoppers picked the number of items by using a weighted random choice, so
+# most shoppers would buy between 10 and 15 items.
+
+# What I Learned:
+# 
+# From this simulation, I learned how important it is to balance the number of
+# workers with customer demand in real-world systems. If there are not enough
+# checkers, customer wait times become too long. If there are too many checkers,
+# a lot of time is wasted with workers standing around. I also learned that
+# adding small amounts of randomness, like in customer arrivals and shopping
+# speed, makes the simulation feel more realistic.
